@@ -572,7 +572,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = VK62HSJ8BA;
+						DevelopmentTeam = 9KBH5RKYEW;
 						ProvisioningStyle = Manual;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -1000,10 +1000,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = VK62HSJ8BA;
+				DEVELOPMENT_TEAM = 9KBH5RKYEW;
 				INFOPLIST_FILE = BretTestRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1012,8 +1012,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = BretTestRN;
-				PROVISIONING_PROFILE = "0a2cf21c-1518-4f19-82b8-5580cb7916e5";
-				PROVISIONING_PROFILE_SPECIFIER = "Bret's wildcard dev profile";
+				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
+				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1022,9 +1022,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VK62HSJ8BA;
+				DEVELOPMENT_TEAM = 9KBH5RKYEW;
 				INFOPLIST_FILE = BretTestRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1033,8 +1033,8 @@
 					"-lc++",
 				);
 				PRODUCT_NAME = BretTestRN;
-				PROVISIONING_PROFILE = "0a2cf21c-1518-4f19-82b8-5580cb7916e5";
-				PROVISIONING_PROFILE_SPECIFIER = "Bret's wildcard dev profile";
+				PROVISIONING_PROFILE = "c381f3d3-9dc4-450f-a775-c8da1e4809de";
+				PROVISIONING_PROFILE_SPECIFIER = "Microsoft Dogfood Provisioning Profile";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
